@@ -1,0 +1,33 @@
+global:
+  g_iOS_REMOTE_URL:            http://localhost:4723/wd/hub
+  g_iOS_PLATFORM_NAME:         iOS
+  g_iOS_PLATFORM_VERSION:      11.3
+  g_iOS_device_name:           iPhone 6
+  g_iOS_UDID:                  d415ee99bc8507e5ee5ac40caea79676812382ee
+  g_iOS_APK:                   /Users/gemteksqa1/jenkins/artifacts/Zephyr_iOS_Artifacts/hoods.app
+  g_iOS_BUNDLE_ID:             com.zephyr.hoods
+
+  g_app_unbound_email:                          gemtek.sv@gmail.com
+  g_app_unbound_password:                       gemtekrd3
+  g_app_bound_email:                            gemtek.sv@gmail.com
+  g_app_bound_password:                         gemtekrd3
+  g_app_auto_add_unregistered_username:         ZpiOSTest
+  g_app_auto_add_sanity_unregistered_username:  ZpiOSTest_S
+  g_app_auto_add_filepath:                      /Users/gemteksqa1/jenkins/workspace/Zephyr_iOS_Auto_Test/ios/config/tmp_for_auto_add.yaml
+  g_app_auto_add_sanity_filepath:               /Users/gemteksqa1/jenkins/workspace/Zephyr_iOS_Sanity_Test/ios/config/tmp_for_sanity_auto_add.yaml
+  g_app_path:                                   /Users/gemteksqa1/jenkins/workspace/Zephyr_iOS_Auto_Test/ios/config/param_ios_zephyr.yaml
+
+#  g_app_home_ssid: DropAP-0bb778
+#  g_app_rename_home_ssid: DropAP-0bb778-rename
+#  g_app_guest_ssid: DropAP-Guest-0ba9f8
+#  g_app_rename_guest_ssid: DropAP-Guest-0ba9f8-rename
+#  g_dut_gui_Networking_page_url: http://192.168.66.1/cgi-bin/luci//admin/network/wan
+
+# 2018-06-07 Nick Chen
+# Add 3 filepath, and g_app_auto_add_sanity_unregistered_username for sanity testing.
+
+# 2018-06-01 Nick Chen
+# Add g_app_auto_add_unregistered_username for 046
+
+# 2018-05-22 Nick Chen
+# Revise variables as g_app_unbound_email and password, g_app_bound_email and password.
